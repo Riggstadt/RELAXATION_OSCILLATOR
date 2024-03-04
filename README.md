@@ -57,7 +57,7 @@ We may simplify the original comparator circuit to a first-order switched RC cir
 
 The SPDT switch simulates the switch between output values. When the inverting terminal of the comparator is higher than the non-inverting terminal, the comparator's output will go to GND. conversely, when the "+" terminal is higher than the "-" terminal, the output voltage will be the supply voltage ($V_{S}$).
 
-When the switch goes to GND the capacitor will start descharging, until it reaches a lower threshold and the comparator output once again flips back to supply voltage. The reverse, for a higher threshold, happens when the output goes to supply voltage, with the capacitor charging up. Given the fact that our capacitor is pre-charged, the initial conditions of the circuit (and of the characteristic differential equations) are not zero, special care must be taken to ensure that the formulas we use take into account the initial capacitor voltage.
+When the switch goes to GND the capacitor will start discharging, until it reaches a lower threshold and the comparator output once again flips back to supply voltage. The reverse, for a higher threshold, happens when the output goes to supply voltage, with the capacitor charging up. Given the fact that our capacitor is pre-charged, the initial conditions of the circuit (and of the characteristic differential equations) are not zero, special care must be taken to ensure that the formulas we use take into account the initial capacitor voltage.
 
 $$\begin{gather}
 V_{S}= I\cdot R + V_{C}\\
