@@ -26,7 +26,7 @@ We need to obtain the UTP and LTP of the inverting comparator contained within t
 -  Output goes to GND
 
 When $V_{out}=V_{S}$, $R_{2}$ will be in parallel with $R_{4}$. The two parallel resistor will form a voltage divider with $R_{3}$. 
-The resulting formula for the UTP (here denotes as VL) is:
+The resulting formula for the UTP (here denoted as VL) is:
 
 $$V_{L}=\frac{R_{3}}{\(R_{2}||R_{4}\)+R_{3}}\cdot V_{S}$$
 
@@ -55,7 +55,7 @@ We may simplify the original comparator circuit to a first-order switched RC cir
 </p>
 <br>
 
-The SPDT switch simulates the switch between output values. When the inverting terminal of the comparator is higher than the non-inverting terminal, the comparator's output will go to GND. Conversly, when the "+" terminal is higher than the "-" terminal, the output voltage will be the supply voltage ($V_{S}$).
+The SPDT switch simulates the switch between output values. When the inverting terminal of the comparator is higher than the non-inverting terminal, the comparator's output will go to GND. conversely, when the "+" terminal is higher than the "-" terminal, the output voltage will be the supply voltage ($V_{S}$).
 
 When the switch goes to GND the capacitor will start descharging, until it reaches a lower threshold and the comparator output once again flips back to supply voltage. The reverse, for a higher threshold, happens when the output goes to supply voltage, with the capacitor charging up. Given the fact that our capacitor is pre-charged, the initial conditions of the circuit (and of the characteristic differential equations) are not zero, special care must be taken to ensure that the formulas we use take into account the initial capacitor voltage.
 
