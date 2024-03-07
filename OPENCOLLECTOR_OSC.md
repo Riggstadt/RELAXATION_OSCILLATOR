@@ -21,3 +21,5 @@ For my application I have the following limits:
 $$R_{pu(min)}=\frac{5\\;V}{6\\;mA}=1.2\\;k\Omega$$
 
 $$R_{pu(max)}=\frac{10\\;mV}{1\\;uA}=10\\;k\Omega$$
+
+,**Comparator datasheet**: https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006646728_1-2542792.pdf
