@@ -20,7 +20,7 @@ voltage comparator. Any fluctuations of the input signal that are above or below
 The comparator presented in the image from above is of the non-inverting flavour, with both the upper and lower trip-voltages being symmetric and positive(to the extent permitted by circuit non-idealities).
 
 Such a circuit was built and tested on a simple breadboard. The input signal is a 10kHz, 2Vpp triangular (50% simmetry ramp) fed by onboard function generator of handheld scope HDS242S. The reference is set by a simple
-1 to 5 volatge divider connected to the overall power supply, this averages out to around a 1V. 
+1 to 5 voltage divider connected to the overall power supply, this averages out to around a 1V. 
 
 <br>
   <p align="center">
