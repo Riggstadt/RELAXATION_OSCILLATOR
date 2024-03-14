@@ -64,6 +64,3 @@ The simulations are true to the real deal:
 - Rise times and more
 
 After analysing this type of circuit, one thing is clear, for trigger-happy environments hsyteresis is a fundamental requirement.
-
-## Inverting comparator with hysteresis and pull up resistor
-*Ongoing experimentation*
